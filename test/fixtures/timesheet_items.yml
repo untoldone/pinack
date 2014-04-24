@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2014-04-22
+  hours: 9.99
+  notes: MyString
+  billed: false
+
+two:
+  date: 2014-04-22
+  hours: 9.99
+  notes: MyString
+  billed: false

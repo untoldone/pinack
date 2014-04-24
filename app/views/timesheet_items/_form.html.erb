@@ -1,0 +1,33 @@
+<%= form_for(@timesheet_item) do |f| %>
+  <% if @timesheet_item.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@timesheet_item.errors.count, "error") %> prohibited this timesheet_item from being saved:</h2>
+
+      <ul>
+      <% @timesheet_item.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :date %><br>
+    <%= f.date_select :date %>
+  </div>
+  <div class="field">
+    <%= f.label :hours %><br>
+    <%= f.text_field :hours %>
+  </div>
+  <div class="field">
+    <%= f.label :notes %><br>
+    <%= f.text_field :notes %>
+  </div>
+  <div class="field">
+    <%= f.label :billed %><br>
+    <%= f.check_box :billed %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

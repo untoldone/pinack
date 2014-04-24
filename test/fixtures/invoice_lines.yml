@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  task: MyString
+  notes: MyString
+  cost: 9.99
+  units: 9.99
+
+two:
+  task: MyString
+  notes: MyString
+  cost: 9.99
+  units: 9.99

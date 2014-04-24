@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2014-04-23
+  amount: 9.99
+  invoice: 
+  company: 
+  client: 
+
+two:
+  date: 2014-04-23
+  amount: 9.99
+  invoice: 
+  company: 
+  client: 
